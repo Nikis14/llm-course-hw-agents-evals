@@ -1,0 +1,290 @@
+{
+ "today": "2026-12-01",
+ "employees": [
+  {
+   "id": "E001",
+   "name": "Анна Смирнова",
+   "team": "platform",
+   "role": "Senior backend developer",
+   "grade": "G5",
+   "manager_id": "E004",
+   "hire_date": "2021-03-15",
+   "city": "Москва",
+   "probation_until": null
+  },
+  {
+   "id": "E002",
+   "name": "Игорь Петров",
+   "team": "platform",
+   "role": "Backend developer",
+   "grade": "G3",
+   "manager_id": "E004",
+   "hire_date": "2026-10-01",
+   "city": "Москва",
+   "probation_until": "2027-01-01"
+  },
+  {
+   "id": "E003",
+   "name": "Мария Козлова",
+   "team": "mobile",
+   "role": "iOS developer",
+   "grade": "G4",
+   "manager_id": "E005",
+   "hire_date": "2019-06-03",
+   "city": "Санкт-Петербург",
+   "probation_until": null
+  },
+  {
+   "id": "E004",
+   "name": "Дмитрий Орлов",
+   "team": "platform",
+   "role": "Team lead",
+   "grade": "G6",
+   "manager_id": "E008",
+   "hire_date": "2018-02-12",
+   "city": "Москва",
+   "probation_until": null
+  },
+  {
+   "id": "E005",
+   "name": "Ольга Белова",
+   "team": "mobile",
+   "role": "Team lead",
+   "grade": "G6",
+   "manager_id": "E008",
+   "hire_date": "2017-09-01",
+   "city": "Санкт-Петербург",
+   "probation_until": null
+  },
+  {
+   "id": "E006",
+   "name": "Павел Соколов",
+   "team": "platform",
+   "role": "QA engineer",
+   "grade": "G3",
+   "manager_id": "E004",
+   "hire_date": "2023-04-10",
+   "city": "Казань",
+   "probation_until": null
+  },
+  {
+   "id": "E007",
+   "name": "Сергей Волков",
+   "team": "mobile",
+   "role": "Android developer",
+   "grade": "G4",
+   "manager_id": "E005",
+   "hire_date": "2022-01-17",
+   "city": "Москва",
+   "probation_until": null
+  },
+  {
+   "id": "E008",
+   "name": "Елена Новикова",
+   "team": "management",
+   "role": "CTO",
+   "grade": "G8",
+   "manager_id": null,
+   "hire_date": "2016-05-01",
+   "city": "Москва",
+   "probation_until": null
+  },
+  {
+   "id": "E009",
+   "name": "Наталья Морозова",
+   "team": "hr",
+   "role": "HR business partner",
+   "grade": "G5",
+   "manager_id": "E010",
+   "hire_date": "2020-11-02",
+   "city": "Москва",
+   "probation_until": null
+  },
+  {
+   "id": "E010",
+   "name": "Алексей Фёдоров",
+   "team": "hr",
+   "role": "HR director",
+   "grade": "G7",
+   "manager_id": null,
+   "hire_date": "2016-08-15",
+   "city": "Москва",
+   "probation_until": null
+  }
+ ],
+ "balances": {
+  "E001": {
+   "annual_left": 18,
+   "comp_days": 1,
+   "wellness_left": 2
+  },
+  "E002": {
+   "annual_left": 4,
+   "comp_days": 0,
+   "wellness_left": 2
+  },
+  "E003": {
+   "annual_left": 31,
+   "comp_days": 0,
+   "wellness_left": 1
+  },
+  "E004": {
+   "annual_left": 12,
+   "comp_days": 0,
+   "wellness_left": 2
+  },
+  "E005": {
+   "annual_left": 9,
+   "comp_days": 1,
+   "wellness_left": 2
+  },
+  "E006": {
+   "annual_left": 0,
+   "comp_days": 2,
+   "wellness_left": 0
+  },
+  "E007": {
+   "annual_left": 6,
+   "comp_days": 0,
+   "wellness_left": 2
+  },
+  "E008": {
+   "annual_left": 25,
+   "comp_days": 0,
+   "wellness_left": 2
+  },
+  "E009": {
+   "annual_left": 15,
+   "comp_days": 0,
+   "wellness_left": 2
+  },
+  "E010": {
+   "annual_left": 22,
+   "comp_days": 0,
+   "wellness_left": 1
+  }
+ },
+ "absences": {
+  "E001": [
+   {
+    "start": "2026-03-02",
+    "end": "2026-03-04",
+    "days": 3
+   }
+  ],
+  "E002": [],
+  "E003": [
+   {
+    "start": "2026-02-09",
+    "end": "2026-02-14",
+    "days": 6
+   }
+  ],
+  "E004": [],
+  "E005": [
+   {
+    "start": "2026-10-12",
+    "end": "2026-10-13",
+    "days": 2
+   }
+  ],
+  "E006": [
+   {
+    "start": "2026-01-19",
+    "end": "2026-01-21",
+    "days": 3
+   },
+   {
+    "start": "2026-09-07",
+    "end": "2026-09-08",
+    "days": 2
+   }
+  ],
+  "E007": [],
+  "E008": [],
+  "E009": [
+   {
+    "start": "2026-05-18",
+    "end": "2026-05-22",
+    "days": 5
+   }
+  ],
+  "E010": []
+ },
+ "calendar": [
+  {
+   "team": "platform",
+   "type": "freeze",
+   "start": "2026-12-21",
+   "end": "2026-12-28",
+   "title": "Код-фриз перед релизом Platform 3.0"
+  },
+  {
+   "team": "mobile",
+   "type": "release",
+   "start": "2026-12-15",
+   "end": "2026-12-15",
+   "title": "Релиз мобильного приложения 5.2"
+  },
+  {
+   "team": "mobile",
+   "type": "vacation",
+   "employee_id": "E007",
+   "start": "2026-12-22",
+   "end": "2027-01-09",
+   "title": "Отпуск: Сергей Волков"
+  },
+  {
+   "team": "platform",
+   "type": "vacation",
+   "employee_id": "E004",
+   "start": "2027-01-11",
+   "end": "2027-01-17",
+   "title": "Отпуск: Дмитрий Орлов"
+  },
+  {
+   "team": "mobile",
+   "type": "vacation",
+   "employee_id": "E005",
+   "start": "2027-02-01",
+   "end": "2027-02-07",
+   "title": "Отпуск: Ольга Белова"
+  },
+  {
+   "team": "all",
+   "type": "holiday",
+   "start": "2026-12-31",
+   "end": "2027-01-08",
+   "title": "Нерабочие праздничные дни"
+  }
+ ],
+ "tickets": [
+  {
+   "id": "T-1001",
+   "author_id": "E001",
+   "category": "equipment",
+   "status": "closed",
+   "description": "Замена батареи ноутбука",
+   "created": "2026-09-14"
+  },
+  {
+   "id": "T-1002",
+   "author_id": "E007",
+   "category": "leave_request",
+   "status": "approved",
+   "employee_id": "E007",
+   "start": "2026-12-22",
+   "end": "2027-01-09",
+   "leave_type": "annual",
+   "created": "2026-11-02"
+  },
+  {
+   "id": "T-1003",
+   "author_id": "E003",
+   "category": "access",
+   "status": "open",
+   "description": "Доступ к TestFlight для нового проекта",
+   "created": "2026-11-25"
+  }
+ ]
+}
